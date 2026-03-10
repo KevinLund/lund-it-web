@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lund IT — Din lokale IT-hjælp i Esbjerg &amp; Varde</title>
+  <meta name="description" content="Professionel IT-support til private og erhverv i Esbjerg og Varde Kommune. Hjemmebesøg fra 495 kr/t, fjernsupport og virksomhedsaftaler. Ring 42 65 42 00.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════ NAV ═══════════════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <svg class="nav-logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="10" fill="#15803d"/>
+        <circle cx="12" cy="12" r="3" fill="white"/>
+        <circle cx="12" cy="28" r="3" fill="white"/>
+        <circle cx="28" cy="28" r="3" fill="white"/>
+        <rect x="11" y="12" width="2" height="16" fill="white"/>
+        <rect x="13" y="27" width="15" height="2" fill="white"/>
+        <rect x="12" y="11" width="9" height="2" fill="white"/>
+        <circle cx="21" cy="12" r="2.5" fill="#4ade80"/>
+      </svg>
+      Lund <span>IT</span>
+    </a>
+    <div class="nav-links">
+      <a href="ydelser.html">Ydelser</a>
+      <a href="priser.html">Priser</a>
+      <a href="erhverv.html">Erhverv</a>
+      <a href="cases.html">Cases</a>
+      <a href="faq.html">FAQ</a>
+      <a href="om-mig.html">Om mig</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div class="nav-cta">
+      <a href="tel:42654200" class="nav-phone">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        42 65 42 00
+      </a>
+      <a href="kontakt.html" class="btn btn-primary">Kontakt mig</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Åbn menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="ydelser.html">Ydelser</a>
+    <a href="priser.html">Priser</a>
+    <a href="erhverv.html">Erhverv</a>
+    <a href="cases.html">Cases</a>
+    <a href="faq.html">FAQ</a>
+    <a href="om-mig.html">Om mig</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="tel:42654200" class="nav-mobile-cta">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Ring: 42 65 42 00
+    </a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════ HERO ══════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Esbjerg &amp; Varde Kommune
+        </div>
+        <h1>Din lokale <em>IT-hjælp</em><br>når du har brug for det</h1>
+        <p class="hero-subtitle">Professionel IT-support til private og virksomheder. Hjemmebesøg, telefon- og fjernsupport — uden lang ventetid og teknisk snak.</p>
+        <div class="hero-actions">
+          <a href="tel:42654200" class="btn btn-white btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            Ring: 42 65 42 00
+          </a>
+          <a href="ydelser.html" class="btn btn-outline-white btn-lg">Se ydelser</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>495 kr</strong>
+            <span>Per time — hjemmebesøg</span>
+          </div>
+          <div class="hero-stat">
+            <strong>8–18</strong>
+            <span>Hverdage · 10–16 weekend</span>
+          </div>
+          <div class="hero-stat">
+            <strong>10 km</strong>
+            <span>Gratis kørsel</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-photo-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+          <span>Foto tilføjes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SERVICES ══════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header text-center" style="margin-bottom:40px;">
+      <span class="section-label">Ydelser</span>
+      <h2 class="section-title">Hvad kan jeg hjælpe med?</h2>
+      <p class="section-subtitle">Fra en langsom computer til et netværk der ikke virker — jeg kommer ud til dig og løser det.</p>
+    </div>
+    <div class="grid-3">
+
+      <a href="ydelser.html#pc" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+        </div>
+        <h3>PC &amp; Computer</h3>
+        <p>Fejlsøgning, oprydning, opsætning, softwareinstallation og flytning af dine data til ny computer.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+      <a href="ydelser.html#wifi" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/></svg>
+        </div>
+        <h3>WiFi &amp; Netværk</h3>
+        <p>Dårligt signal, router der driller, eller netværk der skal sættes op fra bunden? Jeg klarer det.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+      <a href="ydelser.html#printer" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+        </div>
+        <h3>Printer</h3>
+        <p>Installation, trådløs opsætning, driveropdatering og fejlsøgning på printere og scannere.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+      <a href="ydelser.html#mobil" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+        </div>
+        <h3>Mobil &amp; Tablet</h3>
+        <p>Opsætning af ny enhed, overflytning af data, e-mailkonfiguration og hjælp til apps og opdateringer.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+      <a href="ydelser.html#tv" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/></svg>
+        </div>
+        <h3>TV &amp; Streaming</h3>
+        <p>Smart TV-opsætning, Netflix, Viaplay, TV 2 Play og andre streamingtjenester klar til brug.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+      <a href="ydelser.html#andet" class="card" style="display:block;">
+        <div class="card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+        </div>
+        <h3>Andet IT-udstyr</h3>
+        <p>Smarthome-enheder, sikkerhedskameraer, ekstern lagerplads og alt andet IT-udstyr du har brug for hjælp til.</p>
+        <span class="card-link">Læs mere <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></span>
+      </a>
+
+    </div>
+    <div class="text-center" style="margin-top:32px;">
+      <a href="ydelser.html" class="btn btn-primary btn-lg">Se alle ydelser</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ WHY LUND IT ════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="grid-2" style="gap:56px; align-items:center;">
+      <div>
+        <span class="section-label">Hvorfor Lund IT?</span>
+        <h2 class="section-title">IT-hjælp du kan stole på</h2>
+        <p style="margin-bottom:24px;">Jeg er din lokale IT-mand i Esbjerg — ingen helpdesk-kø, ingen lange ventetider. Du får fat i mig direkte.</p>
+        <div class="usp-list">
+          <div class="usp-item">
+            <div class="usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div class="usp-text">
+              <strong>Lokal og fleksibel</strong>
+              <p>Baseret i Esbjerg — jeg kører ud til dig. Telefonen er åben alle hverdage 8–20.</p>
+            </div>
+          </div>
+          <div class="usp-item">
+            <div class="usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+            </div>
+            <div class="usp-text">
+              <strong>Ingen teknisk snak</strong>
+              <p>Jeg forklarer problemet og løsningen i et sprog du forstår — uden jargon.</p>
+            </div>
+          </div>
+          <div class="usp-item">
+            <div class="usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+            </div>
+            <div class="usp-text">
+              <strong>Gennemsigtig pris</strong>
+              <p>Du kender prisen på forhånd. Ingen skjulte gebyrer eller ubehagelige overraskelser.</p>
+            </div>
+          </div>
+          <div class="usp-item">
+            <div class="usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+            </div>
+            <div class="usp-text">
+              <strong>Hurtig respons</strong>
+              <p>Jeg svarer hurtigt og finder en tid der passer dig — ofte allerede samme dag.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="price-highlight">
+          <h3>Priser i overblik</h3>
+          <div class="price-row">
+            <span class="price-row-label">Hjemmebesøg</span>
+            <span class="price-row-value">495 kr/time</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-label">Telefon- &amp; fjernsupport</span>
+            <span class="price-row-value">385 kr/halvtime</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-label">E-mailsupport</span>
+            <span class="price-row-value">225 kr/sag</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-label">Kørsel (inden for 10 km)</span>
+            <span class="price-row-value">Gratis</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row-label">Kørsel udover 10 km</span>
+            <span class="price-row-value">10 kr/km</span>
+          </div>
+          <div style="margin-top:20px;">
+            <a href="priser.html" class="btn btn-primary" style="width:100%;justify-content:center;">Se alle priser</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ AREA ══════════════════════════ -->
+<div class="area-section">
+  <div class="container">
+    <div class="area-inner">
+      <span class="area-label">Dækningsområde</span>
+      <div class="area-tags">
+        <span class="area-tag">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Esbjerg
+        </span>
+        <span class="area-tag">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Varde
+        </span>
+        <span class="area-tag">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Ribe
+        </span>
+        <span class="area-tag">og omegn</span>
+        <span class="area-tag area-tag-highlight">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+          Fjernsupport: Hele Danmark
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ ERHVERV TEASER ═══════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="erhverv-teaser">
+      <div>
+        <span class="section-label" style="color:rgba(255,255,255,.6);">Erhverv</span>
+        <h2>IT-support til din virksomhed</h2>
+        <p>Fast supportaftale, klippekortsløsning eller løbende fjernsupport. Jeg servicerer små og mellemstore virksomheder i Esbjerg- og Vardeområdet.</p>
+      </div>
+      <div class="erhverv-teaser-cta">
+        <a href="erhverv.html" class="btn btn-white btn-lg">Læs om erhvervsaftaler</a>
+        <a href="kontakt.html" class="btn btn-outline-white">Kontakt for tilbud</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CTA ═══════════════════════════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Klar til at få styr på din IT?</h2>
+    <p>Ring eller send en mail — jeg svarer hurtigt og hjælper dig i gang.</p>
+    <div class="cta-actions">
+      <a href="tel:42654200" class="btn btn-white btn-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        Ring: 42 65 42 00
+      </a>
+      <a href="mailto:kontakt@lund.dk" class="btn btn-outline-white btn-lg">kontakt@lund.dk</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <svg class="nav-logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#15803d"/>
+            <circle cx="12" cy="12" r="3" fill="white"/>
+            <circle cx="12" cy="28" r="3" fill="white"/>
+            <circle cx="28" cy="28" r="3" fill="white"/>
+            <rect x="11" y="12" width="2" height="16" fill="white"/>
+            <rect x="13" y="27" width="15" height="2" fill="white"/>
+            <rect x="12" y="11" width="9" height="2" fill="white"/>
+            <circle cx="21" cy="12" r="2.5" fill="#4ade80"/>
+          </svg>
+          Lund <span>IT</span>
+        </a>
+        <p>Professionel IT-support til private og erhverv i Esbjerg og Varde Kommune. Ingen teknikjargon — bare hjælp der virker.</p>
+        <a href="tel:42654200" class="btn btn-primary">Ring: 42 65 42 00</a>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="ydelser.html">Ydelser</a></li>
+          <li><a href="priser.html">Priser</a></li>
+          <li><a href="erhverv.html">Erhverv</a></li>
+          <li><a href="cases.html">Cases</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <a href="tel:42654200">42 65 42 00</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:kontakt@lund.dk">kontakt@lund.dk</a>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            Exnersgade 45, 1. · 6700 Esbjerg
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+            Hverdage 8–18 · Weekend 10–16
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Lund IT · CVR: 28362846</p>
+      <p>Exnersgade 45, 1. · 6700 Esbjerg · Esbjerg &amp; Varde Kommune</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

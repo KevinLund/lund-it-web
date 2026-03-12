@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jonasfix.dk)",
+      "WebFetch(domain:lund.dk)",
+      "Bash(git remote add origin https://github.com/KevinLund/lund-it-web.git)",
+      "Bash(git push -u origin claude/keen-northcutt)",
+      "Bash(git checkout --orphan main)",
+      "Bash(git rm -rf --cached .)",
+      "Bash(git commit --allow-empty -m \"chore: initialise repository\")",
+      "Bash(git push origin main)",
+      "Bash(git checkout claude/keen-northcutt)",
+      "Bash(git checkout -f claude/keen-northcutt)",
+      "Bash(echo \"protocol=https:*)",
+      "Bash(git credential fill)",
+      "Bash(git add cases.html erhverv.html faq.html index.html kontakt.html om-mig.html priser.html ydelser.html handelsbetingelser.html privatlivspolitik.html)",
+      "Bash(git commit:*)",
+      "Bash(git push origin claude/keen-northcutt)",
+      "Bash(git add -A)"
+    ]
+  }
+}
